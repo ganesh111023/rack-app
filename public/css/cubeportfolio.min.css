@@ -1375,7 +1375,7 @@
     height: auto;
     margin: 40px 0;
     max-width: 100%;
-    width: auto;
+    width: 100%;
 }
 .cbp-popup-lightbox-img[data-action] {
     cursor: pointer;

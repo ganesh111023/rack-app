@@ -1,17 +1,3 @@
-
-
-/* ==============================================
-Red-2 Color Skin
-=============================================== */
-
-::-moz-selection {
- background: #D40436;
-}
-::selection {
-	background: #D40436;
-}
-
-
 .btn-home a,
 .skillbar-title,
 .skillbar-bar,
@@ -29,8 +15,6 @@ Red-2 Color Skin
 .pagination > .active > a {
 	background: #e77845;
 }
-
-
 a,
 .about-icon .fa-circle,
 .highlight,
