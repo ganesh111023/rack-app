@@ -20,14 +20,14 @@
 @font-face {
     font-family: 'robotoblack';
     src: url('../fonts/roboto-black.woff2') format('woff2'),
-         url('../fonts/roboto-black.woff') format('woff');
+    url('../fonts/roboto-black.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'robotobold';
     src: url('../fonts/roboto-bold.woff2') format('woff2'),
-         url('../fonts/roboto-bold.woff') format('woff');
+    url('../fonts/roboto-bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -35,14 +35,14 @@
 @font-face {
     font-family: 'robotomedium';
     src: url('../fonts/roboto-medium.woff2') format('woff2'),
-         url('../fonts/roboto-medium.woff') format('woff');
+    url('../fonts/roboto-medium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'robotoregular';
     src: url('../fonts/roboto-regular.woff2') format('woff2'),
-         url('../fonts/roboto-regular.woff') format('woff');
+    url('../fonts/roboto-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -733,7 +733,7 @@ h2 small {
 
 
 /*Navbar Collapse*/
-@media (max-width: 992px) {
+@media (max-width: 767px) {
     .navbar-default .container {
         width: 100%;
         padding-right: 0px;
@@ -2555,7 +2555,7 @@ ul.caret-list li:before {
   width: 100%;
 }
 .about > h4 {
-  color: #e77844;
+  color: #e85948;
   text-align: center;
 }
 .about > h5 {
@@ -2591,7 +2591,7 @@ ul.caret-list li:before {
 }
 .panel-default .panel-heading {
    background-color: #e1e1e1;
-   border: 2px solid #e85948;
+   border: 2px solid #f49c0f;
    color: #000;
    text-align: left;
 }
@@ -2670,11 +2670,11 @@ nav.navbar .navbar-collapse{
   font-size: 0;
 }
 #services h2{
-  border-bottom: 2px solid #e77844;
+  border-bottom: 2px solid #18abcf;
   margin: 0 auto 10px;
   padding-bottom: 7px;
   width: 20%;
-  text-shadow: 1px 2px 0 #e77844, -1px -1px 0 #e77844, 1px -1px 0 #e77844, -1px 1px 0 #e77844, 1px 1px 0 #e77844;
+  text-shadow: 1px 2px 0 #e9635f, -1px -1px 0 #e9635f, 1px -1px 0 #e9635f, -1px 1px 0 #e9635f, 1px 1px 0 #e9635f;
   color: #000;
 }
 .image-logo {
@@ -2687,11 +2687,11 @@ nav.navbar .navbar-collapse{
   width: 50%;
 }
 .col-lg-12.section-title-about.wow.fadeInUp.animated > h2, .col-lg-12.section-title-team.wow.fadeInUp.animated > h2 {
-  border-bottom: 2px solid #e77844;
+  border-bottom: 2px solid #18abcf;
   margin: 0 auto;
   padding-bottom: 10px;
   width: 20%;
-  text-shadow: 1px 2px 0 #e77844, -1px -1px 0 #e77844, 1px -1px 0 #e77844, -1px 1px 0 #e77844, 1px 1px 0 #e77844;
+  text-shadow: 1px 2px 0 #e9635f, -1px -1px 0 #e9635f, 1px -1px 0 #e9635f, -1px 1px 0 #e9635f, 1px 1px 0 #e9635f;
   color: #000;
 }
 .col-lg-12.section-title-price.wow.fadeInUp.animated.animated > h3 {
@@ -2717,21 +2717,21 @@ nav.navbar .navbar-collapse{
 }
 
 .col-lg-12.section-title.wow.fadeInUp.animated small {
-  border-bottom: 2px solid #e77844;
+  border-bottom: 2px solid #17a5d5;
   color: #000000;
   display: inline-block;
   font-weight: bold;
   margin-bottom: 10px;
   padding-bottom: 10px;
-  text-shadow: 1px 2px 0 #e77844, -1px -1px 0 #e77844, 1px -1px 0 #e77844, -1px 1px 0 #e77844, 1px 1px 0 #e77844;
+  text-shadow: 1px 2px 0 #e9635f, -1px -1px 0 #e9635f, 1px -1px 0 #e9635f, -1px 1px 0 #e9635f, 1px 1px 0 #e9635f;
 }
 .col-lg-12.section-title-price.wow.fadeInUp.animated.animated strong {
-  border-bottom: 2px solid #e77844;
+  border-bottom: 2px solid #17a5d5;
   color: #000000;
   display: inline-block;
   margin-bottom: 0;
   padding-bottom: 12px;
-  text-shadow: 1px 2px 0 #e77844, -1px -1px 0 #e77844, 1px -1px 0 #e77844, -1px 1px 0 #e77844, 1px 1px 0 #e77844;
+  text-shadow: 1px 2px 0 #e9635f, -1px -1px 0 #e9635f, 1px -1px 0 #e9635f, -1px 1px 0 #e9635f, 1px 1px 0 #e9635f;
 }
 .cbp-l-grid-fullScreen.cbp.cbp-caption-zoom.cbp-animation-slideDelay.cbp-ready.cbp-cols-3{
   margin-top: -60px;
@@ -2739,7 +2739,13 @@ nav.navbar .navbar-collapse{
 .col-lg-12.section-title-price.wow.fadeInUp.animated.animated .lead a:hover{
   color: #e77844 !important;
 }
-
+.modal-content h2{
+  width: 100% !important;
+  border-bottom: 0 !important;
+}
+.gm-style-iw strong,.gm-style-iw p{
+  color: #000;
+}
 /* media */
 
 @media(max-width: 767px){
@@ -2834,7 +2840,16 @@ nav.navbar .navbar-collapse{
     width: 100%;
   }
 }
-.modal-content h2{
-  width: 100% !important;
-  border-bottom: 0 !important;
+
+/* Header Media */
+
+@media(min-width: 768px) and (max-width: 1200px){
+  #main-nav{
+    padding: 0;
+    width: 77%;
+  }
+  .nav.navbar-nav.navbar-right a{
+    padding: 7px;
+    font-size: 12px;
+  }
 }
