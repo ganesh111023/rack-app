@@ -348,7 +348,7 @@ h2 small {
   position: relative;
   display: table-cell;
   vertical-align: middle;
-    padding-top: 40px;
+  padding-top: 40px;
   z-index: 3;
 }
 .home-title {
@@ -2503,7 +2503,7 @@ ul.caret-list li:before {
   float: left;
 }
 .navbar-brand.techracers-logo > img {
-  width: 90%;
+  width: 70%;
 }
 #main-nav {
   float: left;
@@ -2822,6 +2822,12 @@ nav.navbar .navbar-collapse{
  .slide{
   padding: 10px;
 }
+.cbp-l-filters-button{
+  margin: 0 auto 10px;
+}
+.col-lg-12.section-title.wow.fadeInUp.animated .lead{
+  margin-bottom: 0;
+}
 }
 @media(min-width: 768px) and (max-width: 1024px){
   #about{
@@ -2851,5 +2857,11 @@ nav.navbar .navbar-collapse{
   .nav.navbar-nav.navbar-right a{
     padding: 7px;
     font-size: 12px;
+  }
+  .col-lg-12.section-title-about.wow.fadeInUp.animated > h2, .col-lg-12.section-title-team.wow.fadeInUp.animated > h2{
+    width: 30%;
+  }
+  .about{
+    margin-bottom: 15px;
   }
 }

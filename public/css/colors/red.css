@@ -42,16 +42,12 @@ figure figcaption a:hover,
 	color: #e85948;
 	font-weight: bold;
 }
-
-
 .phone-info {
 	background: rgba(231, 120, 68, 0.2);
 }
-
 .cbp-l-filters-button .cbp-filter-counter:before {
 	border-top: 4px solid #D40436;
 }
-
 .btn-home a {
     box-shadow: 0 3px 0 rgba(231, 120, 68, .5);
 }
