@@ -2504,6 +2504,7 @@ ul.caret-list li:before {
 }
 .navbar-brand.techracers-logo > img {
   width: 70%;
+  margin-top: 3px;
 }
 #main-nav {
   float: left;
