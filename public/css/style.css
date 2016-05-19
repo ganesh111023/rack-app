@@ -2608,7 +2608,8 @@ ul.caret-list li:before {
 }
 .current .btn-primary {
     background-color: #e77844;
-    color: #000;
+    color: #fff;
+    font-weight: bold;
 }
 .current .panel-heading {
     padding: 15px 15px;
@@ -2675,7 +2676,7 @@ nav.navbar .navbar-collapse{
   margin: 0 auto 10px;
   padding-bottom: 7px;
   width: 20%;
-  text-shadow: 1px 2px 0 #e9635f, -1px -1px 0 #e9635f, 1px -1px 0 #e9635f, -1px 1px 0 #e9635f, 1px 1px 0 #e9635f;
+  text-shadow: 2px 2px #f49c0f;
   color: #000;
 }
 .image-logo {
@@ -2692,7 +2693,7 @@ nav.navbar .navbar-collapse{
   margin: 0 auto;
   padding-bottom: 10px;
   width: 20%;
-  text-shadow: 1px 2px 0 #e9635f, -1px -1px 0 #e9635f, 1px -1px 0 #e9635f, -1px 1px 0 #e9635f, 1px 1px 0 #e9635f;
+  text-shadow: 2px 2px #f49c0f;
   color: #000;
 }
 .col-lg-12.section-title-price.wow.fadeInUp.animated.animated > h3 {
@@ -2724,7 +2725,7 @@ nav.navbar .navbar-collapse{
   font-weight: bold;
   margin-bottom: 10px;
   padding-bottom: 10px;
-  text-shadow: 1px 2px 0 #e9635f, -1px -1px 0 #e9635f, 1px -1px 0 #e9635f, -1px 1px 0 #e9635f, 1px 1px 0 #e9635f;
+  text-shadow: 2px 2px #f49c0f;
 }
 .col-lg-12.section-title-price.wow.fadeInUp.animated.animated strong {
   border-bottom: 2px solid #17a5d5;
@@ -2732,7 +2733,7 @@ nav.navbar .navbar-collapse{
   display: inline-block;
   margin-bottom: 0;
   padding-bottom: 12px;
-  text-shadow: 1px 2px 0 #e9635f, -1px -1px 0 #e9635f, 1px -1px 0 #e9635f, -1px 1px 0 #e9635f, 1px 1px 0 #e9635f;
+  text-shadow: 2px 2px #f49c0f;
 }
 .cbp-l-grid-fullScreen.cbp.cbp-caption-zoom.cbp-animation-slideDelay.cbp-ready.cbp-cols-3{
   margin-top: -60px;
@@ -2828,6 +2829,9 @@ nav.navbar .navbar-collapse{
 }
 .col-lg-12.section-title.wow.fadeInUp.animated .lead{
   margin-bottom: 0;
+}
+#contact-form .modal-dialog{
+  width: auto;
 }
 }
 @media(min-width: 768px) and (max-width: 1024px){
