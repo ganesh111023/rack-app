@@ -177,12 +177,12 @@ h4 small, h5 small, h6 small {
 } 
 .preloader-logo {
   position: absolute; 
-    width: 120px;
-    left: 50%;
-    top: 50%;
-    margin: -70px 0 0 -57px;
-    cursor: wait; 
-    opacity: .9;
+  width: 120px;
+  left: 50%;
+  top: 50%;
+  margin: -70px 0 0 -57px;
+  cursor: wait; 
+  opacity: .9;
 }  
 
 /*---- Titles ----*/
@@ -2432,8 +2432,8 @@ ul.caret-list li:before {
 }
 .panel-body {
     background-color: #f5f5f5;
-    padding-left: 30px;
-}
+/*    padding-left: 30px;
+*/}
 .panel-group .panel-heading + .panel-collapse .panel-body {
     border-top: none;
 }
@@ -2747,6 +2747,14 @@ nav.navbar .navbar-collapse{
 }
 .gm-style-iw strong,.gm-style-iw p{
   color: #000;
+}
+.panel-heading.accordion-toggle.collapsed.tech-lead{
+  margin-top: 15px;
+}
+.no-positions{
+  color: #000;
+  font-size: 19px;
+  margin-bottom: 0;
 }
 /* media */
 
