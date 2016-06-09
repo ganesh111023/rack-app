@@ -599,14 +599,14 @@ h2 small {
   text-align: center;
   z-index: 4;
   top:-100px;
-    -webkit-transition: all 0.6s ease;
-    -moz-transition: all 0.6s ease;
-    -o-transition: all 0.6s ease;
-    -ms-transition: all 0.6s ease;
-    transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+  transition: all 0.6s ease;
 }
 #home-slideshow {
-    top: -70px;
+  top: -70px;
 }
 .navbar-brand {
   float: left; 
@@ -628,18 +628,17 @@ h2 small {
 }
 .navbar-default {
   border-color: none;
-  border-bottom: none;
+  border-bottom: 1px solid #f49c0f;
   top: 0;
   left: 0;
   width: 100%;
   padding: 0;
   z-index: 4;
   background-color: #fff;
-    opacity: 1;
-  
-    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.22);
-    -moz-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.22);
-    -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.22); 
+  opacity: 1;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.22); 
 }
 .navbar-right {
   font-family: 'Montserrat', sans-serif;
@@ -649,7 +648,6 @@ h2 small {
   margin-top:10px;
   color: ;
 }
-
 .navbar-collapse {
   margin-top:10px;
   padding-right: 15px;
@@ -2756,6 +2754,12 @@ nav.navbar .navbar-collapse{
   font-size: 19px;
   margin-bottom: 0;
 }
+.white .technology {
+  background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0;
+  margin: 20px auto 0;
+  padding: 5px 10px;
+  width: 50%;
+}
 /* media */
 
 @media(max-width: 767px){
@@ -2840,6 +2844,9 @@ nav.navbar .navbar-collapse{
 }
 #contact-form .modal-dialog{
   width: auto;
+}
+.white .technology {
+  width: 100%;
 }
 }
 @media(min-width: 768px) and (max-width: 1024px){
