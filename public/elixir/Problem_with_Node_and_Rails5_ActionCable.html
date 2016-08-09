@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>
-      Elixir Phoenix development || Hire Techracers  
+      Elixir Phoenix development
     </title>
     <meta content ="Elixir will be a next step for many Rubyists; 
       a familiar language with speed and immutability. 
       Get in touch with techracers about your Elixir applications" name="Techracers loves Elixir Phoenix development">
     <!-- Latest compiled and minified CSS -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
     
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,900,500' rel='stylesheet' type='text/css'>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -136,7 +136,7 @@
 							<span class="icon-bar"></span>
 						</button>
 						<a class="navbar-brand techracers-logo text-center" href="/" style="margin-top:">    
-							<img src="img/techracers-logo.png" alt="techracers-logo">
+							<img src="../img/techracers-logo.png" alt="techracers-logo">
 							<span style="font-size:11px;color:#666;position:relative;top:-8px;left:-13px;">formerly known as GrepRuby</span>
 						</a>
 					</div>
@@ -170,51 +170,41 @@
           <div class="col-md-"></div>
           <div class="col-md-12 col-sm-4 col-xs-12 wow fadeInUp">
             <h4>
-              <i class="fa fa-server" aria-hidden="true"></i>
-              Techracers 
-                <i class="fa fa-heart wow pulse" aria-hidden="true" data-wow-iteration="infinite" data-wow-delay="300ms"></i> 
-              Elixir.
+              Problem with Node
             </h4>
             <p>
-              Being working with every emerging technology, we at techracers didn't took too long to try our hands with Elixir. Once started with it, we found that, there is no other efficient/clean language available to write concurrent program that can utilize all the available cores &amp; memory efficiently.
-              It being a functional language and having immutable data, really help us avoid pitfalls which are faced while writing concurrent/multithreaded programs.
+
+Despite its asynchronous event model, by nature it is
+single threaded. When you launch a Node process, you
+are running a single process with a single thread on a
+single core. So your code will not be executed in
+parallel, only I/O operations are parallel because they
+are executed asynchronous. As such, long running CPU
+tasks will block the whole server and are usually a bad
+way to do things.
             </p>
-            <p>
-              Elixir being derived from the Erlang, it inherits a lot of features like:- distributed, concurrent, fault tolerant, hot code swap.
-            </p>
-          </div>
-          <div class="col-md-12 col-sm-4 col-xs-12 wow fadeInUp">
-            <h4>
-              <i class="fa fa-server" aria-hidden="true"></i>
-              <i class="fa fa-heart wow pulse" aria-hidden="true" data-wow-iteration="infinite" data-wow-delay="300ms"></i> 
-              Phoenix is cool, too!
+            
+            
+                        <h4>
+              Problem with Rails 5 ActionCable
             </h4>
             <p>
-              We at techracers sees Phoenix as a successor to Rails. Phoenix provides everything we need to develop a web application. Built on top of Elixir, it is highly scalable. Influenced by Rails, it has conventions and follows MVC pattern. if Requirement is real-time app, it provides Phoenix Channels to implement real-time features.
+
+One of Rails screencast suggested that “You should
+not do any processing in action cable channels
+because they are not concurrent , if you do they will
+block everything.” and that is true.
+<br/>
+<br/>
+What Rails actually does is that it puts the actions in a
+queue after some time it will be fetched, processed
+and broadcasted afterwards.
+
             </p>
-          </div>
-          <div class="col-md-12 col-sm-4 col-xs-12 wow fadeInUp">
-            <h4>
-              <i class="fa fa-server" aria-hidden="true"></i>
-              When to choose Elixir over Ruby
-            </h4>
-            <p>
-              Rails is a full featured advanced framework for developing web applications. Still, Rails is not a good fit for cases where we need to build highly scalable real-time application. Problem lies within the language(Ruby) itself on top of which the it is built. Ruby is not concurrent by itself and it's really hard to make Ruby programs utilize all the available resources efficiently. If a highly scalable, future proof 
-              &amp; real-time application is required, the best choice is Phoenix!
-            </p>
-          </div>
-          <div class="col-md-12 col-sm-4 col-xs-12 wow fadeInUp">
-            <h4>
-              <i class="fa fa-server" aria-hidden="true"></i>
-              From the blog
-            </h4>
-            <div class="list-group">
-               <a href="/elixir/What_is_new_in_Elixir.html" class="list-group-item">What is new in Elixir?</a>
-               <a href="/elixir/Problem_with_Node_and_Rails5_ActionCable.html" class="list-group-item">What is the Problem with Node and Rails 5 ActionCable</a>
-               <a href="/elixir/benefit_from_Elixir_Phoenix.html" class="list-group-item">How regular applications benefit from Elixir Phoenix?</a>
-            </div>
+
             
           </div>
+
           <div class="col-md-12 col-sm-4 col-xs-12 wow fadeInUp">
             <h4>
               <i class="fa fa-server" aria-hidden="true"></i>
