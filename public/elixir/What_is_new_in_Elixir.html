@@ -6,17 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>
-      Elixir Phoenix development
+      Elixir Phoenix development || What is new in elixir || Hire Techracers  
     </title>
     <meta content ="Elixir will be a next step for many Rubyists; 
       a familiar language with speed and immutability. 
       Get in touch with techracers about your Elixir applications" name="Techracers loves Elixir Phoenix development">
     <!-- Latest compiled and minified CSS -->
-    <link href="../css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/animate.css">
     <link rel="stylesheet" href="../css/font-awesome.min.css">
-    
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,900,500' rel='stylesheet' type='text/css'>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,64 +24,148 @@
     <![endif]-->
 
     <style>
+      body{
+        font-family: verdana;
+      }
+      .main-navi-elixir{
+        margin-bottom: 0;
+        border-radius: 0;
+        border-bottom: 2px solid #F49C0F;
+      }
+      .main-navi-elixir ul{
+        margin-top: 32px;
+      }
+      .tech-logo{
+        width: 200px;
+        height: auto;
+        display: inline-block;
+        outline: none;
+        margin-left: 0px !important;
+      }
+      .tech-logo small{
+        font-weight: bolder;
+      }
+      .tech-logo img{
+        max-width: 100%;
+        display: block;
+        width: 100%;
+      }
       .contents-part{
-        font-family: 'Roboto', sans-serif; 
-        /*background-color: #1a2b33;*/
-        height: 100%;
-        padding: 50px 0 75px;
-        color: #36332c;
-        background: url(img/bg-img.jpg) no-repeat;
+        font-family: verdana; 
+        background: url(../img/techracers-bg.png) no-repeat #c0392b;
+        /*#c0392b*/
+
+        /*#1a2b33*/
         background-size: cover;
-        background-attachment: fixed;
+        height: auto;
+        padding: 20px 0 75px;
+        color: #fff;
       }
       .contents-part p{
-        font-size: 1.5em;
-        line-height: 1.8;
+        font-size: 1.7em;
+        line-height: 1.9;
+        
         text-align: justify;
-        font-weight: 500;
+      }
+      .contents-part .container{
+        max-width: 750px;
       }
       .contents-part .container .row{
-        padding: 70px 150px;
-        border-top: 5px solid #f49c0f;
-        border-radius: 5px;
+        padding: 70px 0;
         margin-top: 60px;
         margin-bottom: 50px;
-        background-color: rgba(255, 255, 255, 0.84);
       }
       .contents-part h1{
         text-align: center;
         font-weight: 900;
         margin-bottom: 30px;
-        color: #36332c;
+        color: #fff;
         font-size: 3em;
+        letter-spacing: inherit;
       }
       .contents-part h4{
         font-size: 2.7em;
         font-weight: 900;
         position: relative;
         line-height: 1.8;
-      }
-      h4::after {
-        background: #f49c0f;
-        bottom: 0;
-        content: "";
-        height: 2px;
-        left: 9.5%;
-        position: absolute;
-        width: 200px;
-      }
-      .contents-part h4 i:first-child{
-        color: #e85948;
-        width: 68px;
-        height: 68px;
-        border-radius: 50%;
-        border: 2px solid #f49c0f;
+        display: inline-block;
         text-align: center;
-        padding-top: 12px;
+        border-bottom: 2px solid #17a5d5;
+        margin-top: 40px;
       }
       .contents-part h4 i{
-        color: #e85948;
+        color: #F49C0F;
         font-size: 40px;
+      }
+      .blog-list{
+        padding-left: 0;
+        margin-top: 20px;
+      }
+      .blog-list li{
+        list-style: circle;
+        text-align: left;
+        padding-bottom: 10px;
+      }
+      .blog-list li a{
+        font-size: 1.5em;
+        font-weight: 700;
+        position: relative;
+        line-height: 1.8;
+        color: #fff;
+        display: inline-block;
+      }
+      .email-list{
+        padding-left: 0;
+      }
+      .email-list li{
+        list-style: none;
+        text-align: center;
+      }
+      .email-list li a{
+        font-size: 1.5em;
+        font-weight: 700;
+        position: relative;
+        line-height: 1.8;
+        color: #fff;
+        display: inline-block;
+        text-decoration: none;
+      }
+      .diff-new-list{
+        padding-left: 0;
+      }
+      .diff-new-list li:first-child{
+        list-style: none;
+      }
+      .diff-new-list li{
+        list-style: circle;
+        text-align: left;
+      }
+      .subhead{
+        font-size: 1.6em;
+      }
+      .diff-new-list li .head{
+        font-size: 1.3em;
+        font-weight: 900;
+        position: relative;
+        line-height: 1.8;
+      }
+      .divider-row{
+        position: relative;
+      }
+      .divider-img{
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        transform: rotate(180deg);
+        position: absolute;
+        top: -72px;
+      }
+      .inside-view-row{
+        position: relative;
+      }
+      .inside-view-row p{
+        padding-top: 30px;
+        line-height: 1.5;
       }
       @media screen and (max-width: 767px){
         .contents-part p{
@@ -108,152 +190,146 @@
       }
     </style>
 
- <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-81865957-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
   </head>
   <body>
     
-    
-    		<!--Start Header-->
-		<section id="fixed-navbar custom-navbar">
-			<nav class="navbar navbar-default navbar-sticky" role="navigation">
-				<div class="container">
-				   
-					<div class="navbar-header logo">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand techracers-logo text-center" href="/" style="margin-top:">    
-							<img src="../img/techracers-logo.png" alt="techracers-logo">
-							<span style="font-size:11px;color:#666;position:relative;top:-8px;left:-13px;">formerly known as GrepRuby</span>
-						</a>
-					</div>
-					
-					<div class="collapse navbar-collapse" id="main-nav">
-						<ul class="nav navbar-nav  navbar-right">
-							<li><a href="/#home">Home</a></li>
-							<li><a href="/#services">Services</a></li>
-							<li><a href="/#about">About Us</a></li>
-							<li><a href="/#team">Team</a></li>
-							<li><a href="/#separator-testimonials">Our Clients</a></li>
-						  <li><a href="/#portfolio">Projects</a></li>
-							<li><a href="/#contact-form">Careers</a></li>
-							<li><a href="/#get-connected">Contact</a></li>
-							<li><a class="social-icon" href="https://twitter.com/GrepRuby"><i class="icon icon-social-twitter"></i></a></li>
-							<li><a class="social-icon" href="https://www.facebook.com/Techracers/"><i class="icon icon-social-facebook"></i></a></li>
-					  </ul>
-					</div><!-- /.navbar-collapse -->
+    <nav class="navbar navbar-default main-navi-elixir">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand tech-logo" href="#">
+             <img src="../img/techracers-logo.png" alt="TechRacers" />
+             <small style="font-size:10px;color:#666;position:relative;top:-8px;left:20px;">formerly known as GrepRuby</small>
+          </a>
+        </div>
 
-				</div><!-- /.container -->
-			</nav>
-		</section>
-		<!--End Header-->
-    
-    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav  navbar-right">
+            <li><a href="/#home">Home</a></li>
+            <li><a href="/#services">Services</a></li>
+            <li><a href="/#about">About Us</a></li>
+            <li><a href="/#team">Team</a></li>
+            <li><a href="/#separator-testimonials">Our Clients</a></li>
+            <li><a href="/#portfolio">Projects</a></li>
+            <li><a href="/#contact-form">Careers</a></li>
+            <li><a href="/#get-connected">Contact</a></li>
+            <li><a class="social-icon" href="https://twitter.com/GrepRuby"><i class="icon icon-social-twitter"></i></a></li>
+            <li><a class="social-icon" href="https://www.facebook.com/Techracers/"><i class="icon icon-social-facebook"></i></a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
     <!--contents part begin-->
     <section class="contents-part">
       <div class="container">
         <div class="row">
           <h1 class="wow fadeInUp">Elixir Phoenix Development</h1>
-          <div class="col-md-"></div>
-          <div class="col-md-12 col-sm-4 col-xs-12 wow fadeInUp">
+          <div class="col-md-12 col-sm-12 col-xs-12 wow fadeInUp text-center">
             <h4>
-              <i class="fa fa-server" aria-hidden="true"></i>
-              What is new in that?
+              What is new in that? 
             </h4>
-            <p>
-               Isn't that’s similar to Node or EM Websocket Ruby? 
-            </p>
-            <h2>The difference is about scaling!</h2>
-            <p>
-● The clock speed of newer CPUs are not getting faster
-instead they having multiple cores.
-<br/>
-● Ruby and Node both are not able to utilize the
-resources in a way these are utilized by Elixir.
-<br/>
-● As we have seen the WhatsApp case we know the
-Elixir can scale vertically and it scales very well.
-            </p>
+            <h5 class="subhead">Isn't that’s similar to Node or EM Websocket Ruby? </h5>
+            <ul class="diff-new-list">
+              <li>
+                <span class="head"> The difference is about scaling!</span>
+              </li>
+              <li>
+                <p>
+                  The clock speed of newer CPUs are not getting faster instead they having multiple cores. 
+                </p>
+              </li>
+              <li>
+                <p>
+                  Ruby and Node both are not able to utilize the resources in a way these are utilized by Elixir.
+                </p>
+              </li>
+              <li>
+                <p>
+                  As we have seen the WhatsApp case we know the Elixir can scale vertically and it scales very well.
+                </p> 
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-12 col-sm-12 col-xs-12 wow fadeInUp text-center">
+            <h4>
+              So what happens if we can not further scale vertically?
+            </h4>
+            <div class="row divider-row">
+              <img src="../img/elixir/outside_view.png" alt="outside_view-techracers" class="img-responsive img-rounded wow swing" data-wow-iteration="2" />
+              <img src="../img/elixir/tech-divider-dark.png" alt="tech-divider-dark" class="divider-img"/>
+            </div>
+          </div>
+          <div class="col-md-12 col-sm-12 col-xs-12 wow fadeInUp text-center">
+            <h4>
+              We start scaling it horizontally
+            </h4>
+            <ul class="diff-new-list">
+              <li>&nbsp;</li>
+              <li>
+                <p>
+                  If a single powerful machine is not capable, we can simply turn on another machine and tell this new machine how to find other machines. 
+                </p>
+              </li>
+              <li>
+                <p>
+                  Erlang is distributed so is Elixir as the system is designed around message passing, the Erlang VM abstracts the message passing in a such a way that it doesn’t matter if the recipient of the message is in the same machine or in another node in the same network. 
+                </p>
+                <p>
+                  Scaling vertically by adding more powerful hardware was a thing of the past. We scaled horizontally, by adding more commodity hardware. With the coming of age of mega-core architectures, we have the choice of either adding more hardware or more cores, or both. Erlang style concurrency puts Elixir/Phoenix ahead of the game when it comes to scaling with both approaches. 
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-12 col-sm-12 col-xs-12 wow fadeInUp text-center">
             
-            <br/><br/><br/><br/><br/><br/><br/>
-            
-            <h2>So what happens if we can not further scale vertically?</h2>
-            
-            <br/><br/>
-            
-            <img src="../img/elixir/outside_view.png" alt="outside_view">
-
-            <br/>
-            
-            <h2>We start scaling it horizontally</h2>
-            <p>
-● If a single powerful machine is not capable, we can simply turn on another
-machine and tell this new machine how to find other machines.
-          <br/>
-● Erlang is distributed so is Elixir as the system is designed around message
-passing, the Erlang VM abstracts the message passing in a such a way
-that it doesn’t matter if the recipient of the message is in the same
-machine or in another node in the same network.
-           </p>
-            <p>
-            
-            Scaling vertically by adding more powerful hardware
-was a thing of the past. We scaled horizontally, by
-adding more commodity hardware. With the coming of
-age of mega-core architectures, we have the choice of
-either adding more hardware or more cores, or both.
-Erlang style concurrency puts Elixir/Phoenix ahead of
-the game when it comes to scaling with both
-approaches.
-
-          </p>
-          
-          <br/><br/>
-            
-            <img src="../img/elixir/inside_view.png" alt="inside_view">
-
-            <br/><br/><br/>
-            
-            <p>
-            Whenever a socket is initiated a new process is
-created to handle it. Don’t worry the are Erlang virtual
-machine processes not operating system processes.
-<br/><br/>
-● And for every channel that is created within this
-channel separate processes are created.
-<br/><br/>
-● Erlang VM processes are very isolated that means a
-buggy or faulty channel will not affect any other thing
-in the system.
-<br/><br/>
-● All the processes are concurrent so none of the
-process is going to block anything in the system.
-            
-            </p>
+            <div class="row inside-view-row">
+              <!-- <img src="img/tech-divider-dark.png" alt="tech-divider-dark" class="divider-img"/> -->
+              <img src="../img/elixir/inside_view.png" alt="inside_view-techracers" class="img-responsive img-rounded wow swing" data-wow-iteration="2" />
+              <p>
+                Whenever a socket is initiated a new process is created to handle it. Don’t worry the are Erlang virtual machine processes not operating system processes. 
+              </p>
+              <ul class="wow fadeInUp">
+                <li>
+                  <p>
+                    And for every channel that is created within this channel separate processes are created. 
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Erlang VM processes are very isolated that means a buggy or faulty channel will not affect any other thing in the system.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    All the processes are concurrent so none of the process is going to block anything in the system. 
+                  </p>
+                </li>
+              </ul>
+            </div>
             
           </div>
 
-          <div class="col-md-12 col-sm-4 col-xs-12 wow fadeInUp">
+          <div class="col-md-12 col-sm-12 col-xs-12 wow fadeInUp text-center">
             <h4>
-              <i class="fa fa-server" aria-hidden="true"></i>
-              EMAIL US AT
+              EMAIL US AT 
             </h4>
-            <p>            
-              elixir_development@techracers.com
-            </p>
+            <ul class="email-list">
+              <li>
+                 <a href="#" mailto: "elixir_development@techracers.com">
+                  <i class="fa fa-envelope-o wow pulse" aria-hidden="true" data-wow-iteration="infinite" data-wow-delay="300ms"></i>
+                  elixir_development@techracers.com
+                </a>
+              </li>
+            </ul>
+            
           </div>
         </div>
       </div>
@@ -263,8 +339,8 @@ process is going to block anything in the system.
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/wow.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/wow.min.js"></script>
     <script>
       new WOW().init();
     </script>
